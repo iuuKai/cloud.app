@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // 创建一个 axios 实例
 const request = axios.create({
-  baseURL: 'http://47.119.162.192:8080/cs_web.portal',
+  baseURL: '//47.119.162.192:8080/cs_web.portal',
   // 请求超时
   timeout: 3000
 })
